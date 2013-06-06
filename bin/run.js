@@ -106,7 +106,7 @@ if (argv.i) {
 
     for (var depth = 0; depth<=materialWidth; depth+=.1) {
       cleanOffsetPath.forEach(function(item, i) {
-        move({
+        item && move({
           x : item.x,
           y : item.y,
           f : 2000
