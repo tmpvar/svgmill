@@ -1,0 +1,37 @@
+{
+  "name": "svgmill",
+  "version": "0.0.0",
+  "description": "turn an svg into gcode",
+  "directories": {
+    "test": "test"
+  },
+  "bin" :{
+    "svgmill" : "bin/run.js"
+  },
+  "dependencies": {
+    "canvas": "~1.0.0",
+    "optimist": "~0.3.5",
+    "segseg": "~0.2.0",
+    "vec2": "~1.0.3",
+    "color": "~0.4.2",
+    "domino": "~1.0.8"
+  },
+  "devDependencies": {
+    "mocha": "~1.8.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tmpvar/svgmill.git"
+  },
+  "keywords": [
+    "svg",
+    "cnc",
+    "gcode"
+  ],
+  "author": "Elijah Insua <tmpvar@gmail.com>",
+  "license": "MIT",
+  "gitHead": "771b0cdfa10cd624ab643dd38768c975b5b2b3b9"
+}

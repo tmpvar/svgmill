@@ -1,6 +1,8 @@
+#!/usr/bin/env node
+
 var argv = require('optimist').argv;
-var reader = require('./SVGReader');
-var offset = require('./offset');
+var reader = require('../SVGReader');
+var offset = require('../offset');
 var Vec2 = require('vec2');
 
 if (argv.i) {
