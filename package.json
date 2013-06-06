@@ -1,6 +1,6 @@
 {
   "name": "svgmill",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "turn an svg into gcode",
   "directories": {
     "test": "test"
