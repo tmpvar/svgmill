@@ -102,7 +102,7 @@ if (argv.i) {
     }
 
     var materialWidth = 5;
-    var cutZ = 1;
+    var cutZ = argv.z || 1;
 
     for (var depth = 0; depth<=materialWidth; depth+=.1) {
       cleanOffsetPath.forEach(function(item, i) {
